@@ -1,0 +1,25 @@
+{
+  "name": "redis_users",
+  "version": "1.0.0",
+  "description": "User management app using redis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "keywords": [
+    "redis",
+    "node",
+    "users",
+    "management"
+  ],
+  "author": "Kevin Kimaru Chege",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "method-override": "^3.0.0",
+    "redis": "^2.8.0"
+  }
+}
